@@ -14,12 +14,8 @@ class App extends React.Component {
                 query: term
             }
         });
-
-        
         this.setState( { images: response.data.results} );
-        console.log(this.state.images);
     }
-
     render() {
         
         return (
